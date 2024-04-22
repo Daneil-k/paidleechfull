@@ -3,9 +3,9 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'Movie🎬 Group'
-    ST_BN1_URL = 'https://t.me/beautyofthemoviesdiscussion'
+    ST_BN1_URL = 'https://t.me/+ywovRerKALI1YTI1'
     ST_BN2_NAME = 'Updates🔔'
-    ST_BN2_URL = 'https://t.me/beautyofthemoviesx'
+    ST_BN2_URL = 'https://t.me/twg_arena'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
@@ -64,11 +64,11 @@ class WZMLStyle:
 ┖🔨 <b>OS Arch :</b> {os_arch}
 
 📶 <b><i>NETWORK STATS :</i></b>
-┠🔼 <b>Upload Data:</b> {up_data}
-┠🔽 <b>Download Data:</b> {dl_data}
-┠🔀 <b>Pkts Sent:</b> {pkt_sent}k
-┠🔁 <b>Pkts Received:</b> {pkt_recv}k
-┖❇️ <b>Total I/O Data:</b> {tl_data}
+┠▲ <b>Upload Data:</b> {up_data}
+┠▼ <b>Download Data:</b> {dl_data}
+┠📤 <b>Pkts Sent:</b> {pkt_sent}k
+┠⟳ <b>Pkts Received:</b> {pkt_recv}k
+┖🌷 <b>Total I/O Data:</b> {tl_data}
 
 ┎🖥 <b>CPU :</b>
 ┃ {cpu_bar} {cpu}%
@@ -78,28 +78,28 @@ class WZMLStyle:
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''👨‍💻 <b><i>REPO STATISTICS :</i></b>
+    REPO_STATS = '''📋 <b><i>REPO STATISTICS :</i></b>
 ┠♻️ <b>Bot Updated :</b> {last_commit}
-┠♌️ <b>Current Version :</b> {bot_version}
+┠⚡ <b>Current Version :</b> {bot_version}
 ┠🔱 <b>Latest Version :</b> {lat_version}
 ┖📝 <b>Last ChangeLog :</b> {commit_details}
 
 🔅 <b>REMARKS :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''❗️ <b><i>BOT LIMITATIONS :</i></b>
+    BOT_LIMITS = '''🚨 <b><i>BOT LIMITATIONS :</i></b>
 ┠🎯 <b>Direct Limit :</b> {DL} GB
 ┠🧲 <b>Torrent Limit :</b> {TL} GB
 ┠☁️ <b>GDrive Limit :</b> {GL} GB
 ┠📺 <b>YT-DLP Limit :</b> {YL} GB
-┠📽 <b>Playlist Limit :</b> {PL}
+┠💻 <b>Playlist Limit :</b> {PL}
 ┠Ⓜ️ <b>Mega Limit :</b> {ML} GB
 ┠🎗️ <b>Clone Limit :</b> {CL} GB
 ┖📁 <b>Leech Limit :</b> {LL} GB
 
 ┎🔑 <b>Token Validity :</b> {TV}
 ┠🙍 <b>User Time Limit :</b> {UTI} / task
-┠♋️ <b>User Parallel Tasks :</b> {UT}
-┖♓️ <b>Bot Parallel Tasks :</b> {BT}
+┠ထ <b>User Parallel Tasks :</b> {UT}
+┖ထ <b>Bot Parallel Tasks :</b> {BT}
     '''
     # ---------------------
 
@@ -265,10 +265,10 @@ class WZMLStyle:
     UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
 
 ┎📺 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠🚧  <b> Daily Tasks :</b> <code>{DT}</code> per day
-┠🟢 <b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠🔲 <b> User Session :</b> <code>{USESS}</code>
-┠⏏️ <b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
+┠🎮  <b> Daily Tasks :</b> <code>{DT}</code> per day
+┠🛠 <b> Last Bot Used :</b> <code>{LAST_USED}</code>
+┠📢 <b> User Session :</b> <code>{USESS}</code>
+┠💡 <b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
 ┠📩 <b> Save Mode :</b> <code>{SAVE_MODE}</code>
 ┖🕵‍♂️ <b> User Bot PM :</b> <code>{BOT_PM}</code>'''
 
@@ -287,10 +287,10 @@ class WZMLStyle:
 
 ┎📁 <b> Daily Leech : </b><code>{DL}</code> per day
 ┠⚙️ <b> Leech Type :</b> <i>{LTYPE}</i>
-┠🖼 <b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠♈ <b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠♐ <b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠♒ <b> Media Group :</b> <i>{MEDIA_GROUP}</i>
+┠📷 <b> Custom Thumbnail :</b> <i>{THUMB}</i>
+┠🌌 <b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
+┠✂ <b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
+┠🎬 <b> Media Group :</b> <i>{MEDIA_GROUP}</i>
 ┠📄 <b> Leech Caption :</b> <code>{LCAPTION}</code>
 ┠Ⓟ <b> Leech Prefix :</b> <code>{LPREFIX}</code>
 ┠Ⓢ <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
