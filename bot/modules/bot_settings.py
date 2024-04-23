@@ -42,8 +42,8 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'BOT_THEME': 'minimal',
                   'BOT_LANG': 'en',
                   'IMG_PAGE': 1,
-                  'AUTHOR_NAME': '𝘽𝙀𝘼𝙐𝙏𝙔𝙊𝙁𝙏𝙃𝙀𝙈𝙊𝙑𝙄𝙀𝙎𝙓',
-                  'AUTHOR_URL': 'https://t.me/beautyofthemoviesx',
+                  'AUTHOR_NAME': 'TWG-ARENA',
+                  'AUTHOR_URL': 'https://t.me/twg_arena',
                   'TITLE_NAME': 'BFX Mirror/Leech X',
                   'GD_INFO': 'Uploaded by BFX',
                   }
@@ -446,7 +446,7 @@ async def load_config():
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/beautyofthemoviesx'
+        AUTHOR_URL = 'https://t.me/twg_arena'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:
