@@ -47,23 +47,23 @@ class WZMLStyle:
 ┃ {ram_bar} {ram}%
 ┖ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
 
-┎👒 <b><i>SWAP MEMORY :</i></b>
+┎👒 <b><b>SWAP MEMORY :</b></b>
 ┃ {swap_bar} {swap}%
 ┖ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
 
-┎💾 <b><i>DISK :</i></b>
+┎💾 <b><b>DISK :</b></b>
 ┃ {disk_bar} {disk}%
 ┃ <b>Total Disk Read :</b> {disk_read}
 ┃ <b>Total Disk Write :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
-    SYS_STATS = '''🛠 <b><i>OS SYSTEM :</i></b>
+    SYS_STATS = '''🛠 <b><b>OS SYSTEM :</b></b>
 ┠⏰️ <b>OS Uptime :</b> {os_uptime}
 ┠☢️ <b>OS Version :</b> {os_version}
 ┖🔨 <b>OS Arch :</b> {os_arch}
 
-🛰️ <b><i>NETWORK STATS :</i></b>
+🛰️ <b><b>NETWORK STATS :</b></b>
 ┠▲ <b>Upload Data:</b> {up_data}
 ┠▼ <b>Download Data:</b> {dl_data}
 ┠📤 <b>Pkts Sent:</b> {pkt_sent}k
@@ -86,7 +86,7 @@ class WZMLStyle:
 
 🔅 <b>REMARKS :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''🚨 <b><i>BOT LIMITATIONS :</i></b>
+    BOT_LIMITS = '''🚨 <b><b>BOT LIMITATIONS :</b></b>
 ┠🎯 <b>Direct Limit :</b> {DL} GB
 ┠🧲 <b>Torrent Limit :</b> {TL} GB
 ┠☁️ <b>GDrive Limit :</b> {GL} GB
@@ -104,25 +104,25 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>Restarting...</i>'
+    RESTARTING = '<b>Restarting...</b>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''♻️ <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''♻️ <b><b>Restarted Successfully!</b></b>
 ┠📅 <b>Date:</b> {date}
 ┠⏰️ <b>Time:</b> {time}
 ┠♎️ <b>TimeZone:</b> {timz}
 ┖☢️ <b>Version:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>Bot Restarted!</i></b>'''
+    RESTARTED = '''⌬ <b><b>Bot Restarted!</b></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>Starting Ping..</i>'
+    PING = '<b>Starting Ping..</b>'
     PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
+    LINKS_START = """<b><b>Task Started</b></b>
 ┠ <b>Mode:</b> {Mode}
 ┖ <b>By:</b> {Tag}\n\n"""
     LINKS_SOURCE = """➲ <b>Source:</b>
@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠🙍 <b>User :</b> {mention} ( #ID{uid} )\n┖ℹ️ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b><i>{Name}</i></b>\n┃\n'
+    NAME =                  '<b><b>{Name}</b></b>\n┃\n'
     SIZE =                  '┠ <b>Size: </b>{Size}\n'
     ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
     MODE =                  '┠ <b>Mode: </b>{Mode}\n'
@@ -145,9 +145,9 @@ class WZMLStyle:
     L_TOTAL_FILES =         '┠📂 <b>Total Files: </b>{Files}\n'
     L_CORRUPTED_FILES =     '┠📁 <b>Corrupted Files: </b>{Corrupt}\n'
     L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
-    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
+    PM_BOT_MSG =            '➲ <b><b>File(s) have been Sent above</b></b>'
+    L_BOT_MSG =             '➲ <b><b>File(s) have been Sent to Bot PM (Private)</b></b>'
+    L_LL_MSG =              '➲ <b><b>File(s) have been Sent. Access via Links...</b></b>\n'
     
     # ----- MIRROR -------
     M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
@@ -155,7 +155,7 @@ class WZMLStyle:
     TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
     RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
     M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
+    M_BOT_MSG =             '➲ <b><b>Link(s) have been Sent to Bot PM (Private)</b></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
     SAVE_MSG =        '📨 Save Message'
@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '🏷 <b><i>{Name}</i></b>'
+    STATUS_NAME =       '🏷 <b><b>{Name}</b></b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               ' {Bar}'
@@ -206,7 +206,7 @@ class WZMLStyle:
     CANCEL =         '\n┖❌️ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
+    FOOTER = '⌬ <b><b>Bot Stats</b></b>\n'
     TASKS =  '┠✏️ <b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '┠📋 <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠🖥 <b>CPU:</b> {cpu}% | '
@@ -228,7 +228,7 @@ class WZMLStyle:
 
     # async def countNode(_, message): ----> gd_count.py
     COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
-    COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
+    COUNT_NAME = '<b><b>{COUNT_NAME}</b></b>\n┃\n'
     COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
     COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
     COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
@@ -237,15 +237,15 @@ class WZMLStyle:
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '<b>Searching for <i>{NAME}</i></b>'
-    LIST_FOUND = '<b>Found {NO} result for <i>{NAME}</i></b>'
-    LIST_NOT_FOUND = 'No result found for <i>{NAME}</i>'
+    LIST_SEARCHING = '<b>Searching for <b>{NAME}</b></b>'
+    LIST_FOUND = '<b>Found {NO} result for <b>{NAME}</b></b>'
+    LIST_NOT_FOUND = 'No result found for <b>{NAME}</b>'
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''<b>No Active Downloads!</b>
     
-⌬ <b><i>Bot Stats</i></b>
+⌬ <b><b>Bot Stats</b></b>
 ┠🖥 <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
 ┖💽 <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
     '''
@@ -274,23 +274,23 @@ class WZMLStyle:
 
     MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
+┎<b> RClone Config :</b> <b>{RCLONE}</b>
 ┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
 ┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
 ┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
+┠<b> DDL Server(s) :</b> <b>{DDL_SERVER}</b>
+┠<b> User TD Mode :</b> <b>{TMODE}</b>
+┠<b> Total User TD(s) :</b> <b>{USERTD}</b>
 ┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
 ┎📁 <b> Daily Leech : </b><code>{DL}</code> per day
-┠⚙️ <b> Leech Type :</b> <i>{LTYPE}</i>
+┠⚙️ <b> Leech Type :</b> <b>{LTYPE}</b>
 ┠📷 <b> Custom Thumbnail :</b> <i>{THUMB}</i>
 ┠🌌 <b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠✂ <b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠🎬 <b> Media Group :</b> <i>{MEDIA_GROUP}</i>
+┠✂ <b> Equal Splits :</b> <b>{EQUAL_SPLIT}</b>
+┠🎬 <b> Media Group :</b> <b>{MEDIA_GROUP}</b>
 ┠📄 <b> Leech Caption :</b> <code>{LCAPTION}</code>
 ┠Ⓟ <b> Leech Prefix :</b> <code>{LPREFIX}</code>
 ┠Ⓢ <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
