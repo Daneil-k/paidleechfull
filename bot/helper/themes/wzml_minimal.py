@@ -3,9 +3,9 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = 'ᴏᴡɴᴇʀ'
-    ST_BN1_URL = 'https://t.me/StellarLabsOwner'
+    ST_BN1_URL = 'https://t.me/ROYALCINEMASR'
     ST_BN2_NAME = 'ᴄʜᴀɴɴᴇʟ'
-    ST_BN2_URL = 'https://t.me/Stellar_Labs'
+    ST_BN2_URL = 'https://t.me/ROYALMOVIESKING1'
     ST_MSG = '''<b>Tʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ ɢᴏᴏɢʟᴇ ᴅʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs.</b>
 <b>Tʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
